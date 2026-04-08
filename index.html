@@ -100,7 +100,7 @@
 						<!-- Start text slide -->
 						
 						<div class="mu-featured-content">
-							<p>Hi there! I am a PhD student at New York University's (NYU) Center for Data Science. I am honored to be a recipient of the Data Science Fellowship Award<!-- and the Center for Data Science Medical Fellowship-->. <!-- I am passionate about interdisciplinary research and am always excited to apply knowledge of machine learning techniques together with theories from other fields in my work. --> I am generally interested in machine reasoning (both social and physical), and seek to develop methods that make models more robust and reliable.
+							<p>Hi there! I am a PhD student at New York University's (NYU) Center for Data Science. I am honored to be a recipient of the Data Science Fellowship Award<!-- and the Center for Data Science Medical Fellowship-->. <!-- I am passionate about interdisciplinary research and am always excited to apply knowledge of machine learning techniques together with theories from other fields in my work. --> I am generally interested in machine reasoning, alignment and seek to develop methods that make models reason more robustly and reliably.
 							<!--I will be applying AI to healthcare at NYU’s Center for Data Science and NYU Langone Medical Center, pushing machine intelligence toward real-world clinical impact. -->
 							<br>
 							<br>
@@ -276,43 +276,82 @@
 
 							<ul style="list-style-type:none;">
 								<li><em>For the most updated list of papers, please refer to my <a href="https://scholar.google.com/citations?hl=en&user=V6kwfAwAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" style="color:black"><u>Google Scholar</u></a> page!</em></li>
-								<br>
+							</ul>
+							<br>
+							<p style="font-size:0.9em; color:#666; margin-top:-10px; margin-bottom:25px; font-style:italic;">
+							    *Please note: Research naturally intersects, so the categorization below is a rough guide to highlight core themes. Many of these works overlap across multiple areas.
+							</p>
+							<br>
+
+							<h3>Reasoning & Cognitive Modeling in Language Models</h3>
+							<br>
+							<p style="margin-top:-10px; margin-bottom:15px; font-size:0.95em; color:#555;">
+						    <em>Exploring (including attempts to improve) how language models understand the world, form coherent mental models of everyday situations and objects, and apply implicit reasoning such as Theory of Mind.</em>
+						 </p>
+							<ul style="list-style-type:none;">
 								<li><b>Yuling Gu</b>, Oyvind Tafjord, Hyunwoo Kim, Jared Moore, Ronan Le Bras, Peter Clark and Yejin Choi (2026). “SimpleToM: Exposing the Gap between Explicit ToM Inference and Implicit ToM Application in LLMs”. <em>ICLR 2026.</em> <a href="https://arxiv.org/abs/2410.13648" target="_blank">[Paper]</a> <a href="https://huggingface.co/datasets/allenai/SimpleToM" target="_blank">[Dataset]</a><a href="https://github.com/yulinggu-cs/SimpleToM" target="_blank">[Code]</a> </li>
 								<br>
-								<li>Team Olmo, Allyson Ettinger, Amanda Bertsch, Bailey Kuehl, David Graham, David Heineman, Dirk Groeneveld, Faeze Brahman, Finbarr Timbers, Hamish Ivison, Jacob Morrison, Jake Poznanski, Kyle Lo, Luca Soldaini, Matt Jordan, Mayee Chen, Michael Noukhovitch, Nathan Lambert, Pete Walsh, Pradeep Dasigi, Robert Berry, Saumya Malik, Saurabh Shah, Scott Geng, Shane Arora, Shashank Gupta, Taira Anderson, Teng Xiao, Tyler Murray, Tyler Romero, Victoria Graf, Akari Asai, Akshita Bhagia, Alexander Wettig, Alisa Liu, Aman Rangapur, Chloe Anastasiades, Costa Huang, Dustin Schwenk, Harsh Trivedi, Ian Magnusson, Jaron Lochner, Jiacheng Liu, Lester James V Miranda, Maarten Sap, Malia Morgan, Michael Schmitz, Michal Guerquin, Michael Wilson, Regan Huff, Ronan Le Bras, Rui Xin, Rulin Shao, Sam Skjonsberg, Shannon Zejiang Shen, Shuyue Stella Li, Tucker Wilde, Valentina Pyatkin, Will Merrill, Yapei Chang, <b>Yuling Gu</b>, Zhiyuan Zeng, Ashish Sabharwal, Luke Zettlemoyer, Pang Wei Koh, Ali Farhadi, Noah A Smith, and Hannaneh Hajishirzi (2025). “Olmo 3”. <em>arXiv.</em> <a href="https://arxiv.org/abs/2501.00656" target="_blank">[arXiv]</a> (see paper for various links to code and data)</li>
+								<li>Tianyi Zhang, Li Zhang, Zhaoyi Hou, Ziyu Wang, <b>Yuling Gu</b>, Peter Clark, Chris Callison-Burch and Niket Tandon (2024). “PROC2PDDL: Open-Domain Planning Representations from Texts”. <em> The 2nd Workshop on Natural Language Reasoning and Structured Explanations, ACL 2024.</em> <a href="https://aclanthology.org/2024.nlrse-1.2" target="_blank">[Paper]</a> <a href="https://github.com/zharry29/proc2pddl" target="_blank">[Dataset & Code]</a></li>
 								<br>
+								<li><b>Yuling Gu</b>, Bhavana Dalvi Mishra and Peter Clark (2023). “Do language models have coherent mental models of everyday things?”. <em> ACL 2023.</em> <a href="https://aclanthology.org/2023.acl-long.106" target="_blank">[Paper]</a> <a href="https://github.com/allenai/everyday-things/" target="_blank">[Dataset & Code]</a></li>
+								<br>
+								<li><b>Yuling Gu</b>, Bhavana Dalvi Mishra and Peter Clark (2022). “DREAM: Improving Situational QA by First Elaborating the Situation”. <em>NAACL 2022.</em> <a href="https://aclanthology.org/2022.naacl-main.82/" target="_blank">[Paper]</a> <a href="https://github.com/allenai/dream/" target="_blank">[Dataset & Model]</a></li>
+								<br>
+								<li><b>Yuling Gu</b>, Yao Fu, Valentina Pyatkin, Ian Magnusson, Bhavana Dalvi and Peter Clark (2022). “Just-DREAM-about-it: Figurative Language Understanding with DREAM-FLUTE”. <em>The Third Workshop on Figurative Language Processing, EMNLP 2022.</em> <a href="https://aclanthology.org/2022.flp-1.12/" target="_blank">[Paper]</a> <a href="https://github.com/allenai/dream/" target="_blank">[Dataset & Model]</a></li>
+								<br>
+							</ul>
+
+							<br>
+							<h3>Model Evaluation & Alignment</h3>
+							<br>
+							<p style="margin-top:-10px; margin-bottom:15px; font-size:0.95em; color:#555;">
+							    <em>Developing robust frameworks, reasoning trace critiques, and benchmarks to critically evaluate language model behaviors, reduce evaluation uncertainty, and align models with human values.</em>
+							</p>
+							<ul style="list-style-type:none;">
 								<li>David Heineman, Valentin Hofmann, Ian Magnusson, <b>Yuling Gu</b>, Noah A Smith, Hannaneh Hajishirzi, Kyle Lo and Jesse Dodge (2025). “Signal and Noise: A Framework for Reducing Uncertainty in Language Model Evaluation”. <em>NeurIPS 2025.</em> <a href="https://arxiv.org/abs/2508.13144" target="_blank">[Paper]</a> <a href="https://github.com/allenai/signal-and-noise" target="_blank">[Code]</a></li>
 								<br>
-								<li>Team OLMo, Pete Walsh, Luca Soldaini, Dirk Groeneveld, Kyle Lo, Shane Arora, Akshita Bhagia, <b>Yuling Gu</b>, Shengyi Huang, Matt Jordan, Nathan Lambert, Dustin Schwenk, Oyvind Tafjord, Taira Anderson, David Atkinson, Faeze Brahman, Christopher Clark, Pradeep Dasigi, Nouha Dziri, Michal Guerquin, Hamish Ivison, Pang Wei Koh, Jiacheng Liu, Saumya Malik, William Merrill, Lester James V. Miranda, Jacob Morrison, Tyler Murray, Crystal Nam, Valentina Pyatkin, Aman Rangapur, Michael Schmitz, Sam Skjonsberg, David Wadden, Christopher Wilhelm, Michael Wilson, Luke Zettlemoyer, Ali Farhadi, Noah A. Smith and Hannaneh Hajishirzi (2025). “2 OLMo 2 Furious”. <em>COLM 2025.</em> <a href="https://arxiv.org/abs/2501.00656" target="_blank">[Paper]</a> (see paper for various links to code and data)</li>
+								<li><b>Yuling Gu</b>, Oyvind Tafjord, Bailey Kuehl, Dany Haddad, Jesse Dodge and Hannaneh Hajishirzi (2025). “OLMES: A Standard for Language Model Evaluations”. <em>Findings of NAACL 2025.</em> <a href="https://aclanthology.org/2025.findings-naacl.282/" target="_blank">[Paper]</a> <a href="https://github.com/allenai/olmes" target="_blank">[Code]</a></li>
+								<br>
+								<li><b>Yuling Gu</b>, Oyvind Tafjord and Peter Clark (2024). “Digital Socrates: Evaluating LLMs through Explanation Critiques”. <em> ACL 2024.</em> <a href="https://aclanthology.org/2024.acl-long.302/" target="_blank">[Paper]</a> <a href="https://huggingface.co/datasets/allenai/DS_Critique_Bank" target="_blank">[Dataset & Model]</a></li>
+								<br>
+								<li>Wenlong Zhao, Debanjan Mondal, Niket Tandon, Danica Dillion, Kurt Gray and <b>Yuling Gu</b> (2024). “WorldValuesBench: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models”. <em> LREC-COLING 2024.</em> <a href="https://aclanthology.org/2024.lrec-main.1539" target="_blank">[Paper]</a> <a href="https://github.com/Demon702/WorldValuesBench" target="_blank">[Dataset & Code]</a></li>
+								<br>
+								<li>Kavel Rao, Liwei Jiang, Valentina Pyatkin, <b>Yuling Gu</b>, Niket Tandon, Nouha Dziri, Faeze Brahman and Yejin Choi (2023). “What Makes it Ok to Set a Fire? Iterative Self-distillation of Contexts and Rationales for Disambiguating Defeasible Social and Moral Situations”. <em> Findings of EMNLP 2023.</em> <a href="https://aclanthology.org/2023.findings-emnlp.812/" target="_blank">[Paper]</a> <a href="https://huggingface.co/datasets/kavelrao/d-Rules-of-Thumb" target="_blank">[Dataset]</a></li>
+								<br>
+								<li>Danica Dillion, Niket Tandon, <b>Yuling Gu</b> and Kurt Gray (2023). “Can AI language models replace human participants?”. <em>Trends in Cognitive Sciences.</em> <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(23)00098-0" target="_blank" >[Paper]</a></li>
+								<br>
+							</ul>
+
+					<br>
+					<h3>Open Foundation Models (The OLMo Ecosystem)</h3>
+					<br>
+					<p style="margin-top:-10px; margin-bottom:15px; font-size:0.95em; color:#555;">
+					    <em>Pushing the frontiers of open-source language modeling through collaborative pre-training, post-training, and mixture-of-experts architectures.</em>
+					</p>
+					<ul style="list-style-type:none;">
+								<li>Team Olmo, Allyson Ettinger, Amanda Bertsch, Bailey Kuehl, David Graham, David Heineman, Dirk Groeneveld, Faeze Brahman, Finbarr Timbers, Hamish Ivison, Jacob Morrison, Jake Poznanski, Kyle Lo, Luca Soldaini, Matt Jordan, Mayee Chen, Michael Noukhovitch, Nathan Lambert, Pete Walsh, Pradeep Dasigi, Robert Berry, Saumya Malik, Saurabh Shah, Scott Geng, Shane Arora, Shashank Gupta, Taira Anderson, Teng Xiao, Tyler Murray, Tyler Romero, Victoria Graf, Akari Asai, Akshita Bhagia, Alexander Wettig, Alisa Liu, Aman Rangapur, Chloe Anastasiades, Costa Huang, Dustin Schwenk, Harsh Trivedi, Ian Magnusson, Jaron Lochner, Jiacheng Liu, Lester James V Miranda, Maarten Sap, Malia Morgan, Michael Schmitz, Michal Guerquin, Michael Wilson, Regan Huff, Ronan Le Bras, Rui Xin, Rulin Shao, Sam Skjonsberg, Shannon Zejiang Shen, Shuyue Stella Li, Tucker Wilde, Valentina Pyatkin, Will Merrill, Yapei Chang, <b>Yuling Gu</b>, Zhiyuan Zeng, Ashish Sabharwal, Luke Zettlemoyer, Pang Wei Koh, Ali Farhadi, Noah A Smith, and Hannaneh Hajishirzi (2025). “Olmo 3”. <em>arXiv.</em> <a href="https://arxiv.org/abs/2501.00656" target="_blank">[arXiv]</a> (see paper for various links to code and data)</li>
+								<br>
+								<li>Team OLMo, Pete Walsh, Luca Soldaini, Dirk Groeneveld, Kyle Lo, Shane Arora, Akshita Bhagia, <b>Yuling Gu</b>, Shengyi Huang, Matt Jordan, Nathan Lambert, Dustin Schwenk, Oyvind Tafjord, Taira Anderson, David Atkinson, Faeze Brahman, Christopher Clark, Pradeep Dasigi, Nouha Dziri, Michal Guerquin, Hamish Ivison, Pang Wei Koh, Jiacheng Liu, Saumya Malik, William Merrill, Lester James V. Miranda, Jacob Morrison, Tyler Murray, Crystal Nam, Valentina Pyatkin, Aman Rangapur, Michael Schmitz, Sam Skjonsberg, David Wadden, Christopher Wilhelm, Michael Wilson, Luke Zettlemoyer, Ali Farhadi, Noah A. Smith and Hannaneh Hajishirzi (2025). “2 OLMo 2 Furious”. <em>COLM 2025.</em> <a href="https://arxiv.org/abs/2501.00656" target="_blank">[Paper]</a> (<b>core contributor</b> leading evaluation, see paper for various links to code and data)</li>
 								<br>
 								<li>Nathan Lambert, Jacob Morrison, Valentina Pyatkin, Shengyi Huang, Hamish Ivison, Faeze Brahman, Lester James V. Miranda, Alisa Liu, Nouha Dziri, Shane Lyu, <b>Yuling Gu</b>, Saumya Malik, Victoria Graf, Jena D. Hwang, Jiangjiang Yang, Ronan Le Bras, Oyvind Tafjord, Chris Wilhelm, Luca Soldaini, Noah A. Smith, Yizhong Wang, Pradeep Dasigi and Hannaneh Hajishirzi (2025). “TÜLU 3: Pushing Frontiers in Open Language Model Post-Training”. <em>COLM 2025.</em> <a href="https://arxiv.org/abs/2411.15124" target="_blank">[Paper]</a> <a href="https://github.com/allenai/open-instruct" target="_blank">[Code]</a> <a href="https://github.com/allenai/olmes" target="_blank">[Eval]</a></li>
 								<br>
 								<li>Niklas Muennighoff, Luca Soldaini, Dirk Groeneveld, Kyle Lo, Jacob Morrison, Sewon Min, Weijia Shi, Pete Walsh, Oyvind Tafjord, Nathan Lambert, <b>Yuling Gu</b>, Shane Arora, Akshita Bhagia, Dustin Schwenk, David Wadden, Alexander Wettig, Binyuan Hui, Tim Dettmers, Douwe Kiela, Ali Farhadi, Noah A Smith, Pang Wei Koh, Amanpreet Singh and Hannaneh Hajishirzi (2025). “OLMoE: Open Mixture-of-Experts Language Models”. <em>ICLR 2025.</em> <a href="https://arxiv.org/abs/2409.02060" target="_blank">[Paper]</a> <a href="https://github.com/allenai/OLMoE" target="_blank">[Code]</a></li>
 								<br>
-								<li><b>Yuling Gu</b>, Oyvind Tafjord, Bailey Kuehl, Dany Haddad, Jesse Dodge and Hannaneh Hajishirzi (2025). “OLMES: A Standard for Language Model Evaluations”. <em>Findings of NAACL 2025.</em> <a href="https://aclanthology.org/2025.findings-naacl.282/" target="_blank">[Paper]</a> <a href="https://github.com/allenai/olmes" target="_blank">[Code]</a></li>
-								<br>
-								<li>Wenlong Zhao, Debanjan Mondal, Niket Tandon, Danica Dillion, Kurt Gray and <b>Yuling Gu</b> (2024). “WorldValuesBench: A Large-Scale Benchmark Dataset for Multi-Cultural Value Awareness of Language Models”. <em> LREC-COLING 2024.</em> <a href="https://aclanthology.org/2024.lrec-main.1539" target="_blank">[Paper]</a> <a href="https://github.com/Demon702/WorldValuesBench" target="_blank">[Dataset & Code]</a></li>
-								<br>
-								<li>Tianyi Zhang, Li Zhang, Zhaoyi Hou, Ziyu Wang, <b>Yuling Gu</b>, Peter Clark, Chris Callison-Burch and Niket Tandon (2024). “PROC2PDDL: Open-Domain Planning Representations from Texts”. <em> The 2nd Workshop on Natural Language Reasoning and Structured Explanations, ACL 2024.</em> <a href="https://aclanthology.org/2024.nlrse-1.2" target="_blank">[Paper]</a> <a href="https://github.com/zharry29/proc2pddl" target="_blank">[Dataset & Code]</a></li>
-								<br>
 								<li>Dirk Groeneveld, Iz Beltagy, Pete Walsh, Akshita Bhagia, Rodney Kinney, Oyvind Tafjord, Ananya Harsh Jha, Hamish Ivison, Ian Magnusson, Yizhong Wang, Shane Arora, David Atkinson, Russell Authur, Khyathi Raghavi Chandu, Arman Cohan, Jennifer Dumas, Yanai Elazar, <b>Yuling Gu</b>, Jack Hessel, Tushar Khot, William Merrill, Jacob Morrison, Niklas Muennighoff, Aakanksha Naik, Crystal Nam, Matthew E. Peters, Valentina Pyatkin, Abhilasha Ravichander, Dustin Schwenk, Saurabh Shah, Will Smith, Emma Strubell, Nishant Subramani, Mitchell Wortsman, Pradeep Dasigi, Nathan Lambert, Kyle Richardson, Luke Zettlemoyer, Jesse Dodge, Kyle Lo, Luca Soldaini, Noah A. Smith and Hannaneh Hajishirzi (2024). “OLMo: Accelerating the Science of Language Models”. <em> ACL 2024.</em> <a href="https://aclanthology.org/2024.acl-long.841/" target="_blank">[Paper]</a> <a href="https://allenai.org/olmo" target="_blank">[Website]</a></li>
 								<br>
-								<li><b>Yuling Gu</b>, Oyvind Tafjord and Peter Clark (2024). “Digital Socrates: Evaluating LLMs through Explanation Critiques”. <em> ACL 2024.</em> <a href="https://aclanthology.org/2024.acl-long.302/" target="_blank">[Paper]</a> <a href="https://huggingface.co/datasets/allenai/DS_Critique_Bank" target="_blank">[Dataset & Model]</a></li>
-								<br>
-								<li>Kavel Rao, Liwei Jiang, Valentina Pyatkin, <b>Yuling Gu</b>, Niket Tandon, Nouha Dziri, Faeze Brahman and Yejin Choi (2023). “What Makes it Ok to Set a Fire? Iterative Self-distillation of Contexts and Rationales for Disambiguating Defeasible Social and Moral Situations”. <em> Findings of EMNLP 2023.</em> <a href="https://aclanthology.org/2023.findings-emnlp.812/" target="_blank">[Paper]</a> <a href="https://huggingface.co/datasets/kavelrao/d-Rules-of-Thumb" target="_blank">[Dataset]</a></li>
-								<br>
-								<li><b>Yuling Gu</b>, Bhavana Dalvi Mishra and Peter Clark (2023). “Do language models have coherent mental models of everyday things?”. <em> ACL 2023.</em> <a href="https://aclanthology.org/2023.acl-long.106" target="_blank">[Paper]</a> <a href="https://github.com/allenai/everyday-things/" target="_blank">[Dataset & Code]</a></li>
-								<br>
-								<li>Danica Dillion, Niket Tandon, <b>Yuling Gu</b> and Kurt Gray (2023). “Can AI language models replace human participants?”. <em>Trends in Cognitive Sciences.</em> <a href="https://www.cell.com/trends/cognitive-sciences/fulltext/S1364-6613(23)00098-0" target="_blank" >[Paper]</a></li>
-								<br>
+					</ul>
+
+				<br>
+				<h3>Linguistics, Speech & Societal Impacts</h3>
+				<br>
+				<p style="margin-top:-10px; margin-bottom:15px; font-size:0.95em; color:#555;">
+				    <em>Investigating the linguistic capabilities of models, performing large-scale acoustic analyses across dialects, and analyzing the socio-cultural dynamics of AI research.</em>
+				</p>
+				<ul style="list-style-type:none;">
 								<li><b>Yuling Gu</b> (2022). “Measure More, Question More: Experimental Studies on Transformer-based Language Models and Complement Coercion”. <em>arXiv.</em> <a href="https://arxiv.org/abs/2212.10536" target="_blank">[arXiv]</a></li>
 								<br>
 								<li>Bingchen Zhao*, <b>Yuling Gu*</b>, Jessica Zosa Forde and Naomi Saphra (2022). “One Venue, Two Conferences: The Separation of Chinese and American Citation Networks”. <em>AI Cultures Workshop at NeurIPS 2022.</em> <a href="https://arxiv.org/abs/2211.12424" target="_blank" >[arXiv]</a></li>
 								<br>								
-								<li><b>Yuling Gu</b>, Yao Fu, Valentina Pyatkin, Ian Magnusson, Bhavana Dalvi and Peter Clark (2022). “Just-DREAM-about-it: Figurative Language Understanding with DREAM-FLUTE”. <em>The Third Workshop on Figurative Language Processing, EMNLP 2022.</em> <a href="https://aclanthology.org/2022.flp-1.12/" target="_blank">[Paper]</a> <a href="https://github.com/allenai/dream/" target="_blank">[Dataset & Model]</a></li>
-								<br>
-								<li><b>Yuling Gu</b>, Bhavana Dalvi Mishra and Peter Clark (2022). “DREAM: Improving Situational QA by First Elaborating the Situation”. <em>NAACL 2022.</em> <a href="https://aclanthology.org/2022.naacl-main.82/" target="_blank">[Paper]</a> <a href="https://github.com/allenai/dream/" target="_blank">[Dataset & Model]</a></li>
-								<br>
 								<li><b>Yuling Gu</b> and Nancy F. Chen (2022). “Large-Scale Acoustic Characterization of Singaporean Children's English Pronunciation”. <em>arXiv.</em> <a href="https://arxiv.org/abs/2202.09108" target="_blank">[arXiv]</a></li>
 								<br>
 								<li><b>Yuling Gu</b> (2021). “Transformer-based language models and complement coercion: Experimental studies". <em>The First Workshop on Understanding Implicit and Underspecified Language at ACL-IJCNLP 2021.</em> <a href="https://underline.io/events/167/sessions/6301/lecture/30101-transformer-based-language-models-and-complement-coercion-experimental-studies" target="_blank">[Underline link]</a> <a href="UnImplicit_LMs_coercion_yulinggu.pdf" target="_blank">[Poster]</a></li>
@@ -327,7 +366,15 @@
 								<br>
 								<li><b>Yuling Gu</b>, Boon Pang Lim and Nancy F. Chen (2016). “Perception of tone in whispered Mandarin sentences: the case for Singapore Mandarin”. <em>Interspeech 2016.</em> <a href="https://www.isca-archive.org/interspeech_2016/gu16_interspeech.pdf" target="_blank">[Paper]</a></li>
 								<br>
-							</ul>
+				</ul>
+
+	
+
+
+
+
+
+
 						</div>
 					</div>
 				</div>
